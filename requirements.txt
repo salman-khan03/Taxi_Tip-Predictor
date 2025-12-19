@@ -1,0 +1,24 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+
+# GPU-accelerated data processing (RAPIDS)
+# Note: Install via conda for RAPIDS (see README)
+# cudf>=24.04
+# cudatoolkit>=11.8
+
+# Machine Learning
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# For Colab users (CPU fallback)
+# Uncomment if not using RAPIDS/cuDF
+# pandas>=2.0.0
